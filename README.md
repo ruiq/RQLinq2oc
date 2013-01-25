@@ -20,7 +20,7 @@ NSArray *myArray = [NSArray arrayWithLength:10 andObject:^id(NSInteger currentIn
     
     
     
-result:
+myArray:
 (
     "  id: 1919 - name: s0 - age: 20 - sex: f  ",
     "  id: 1122 - name: s1 - age: 21 - sex: m  ",
@@ -42,8 +42,7 @@ get student's name list like this :
         return target.name;
     }];
     
-result:
-
+nameList:
 (
     s0,
     s1,
@@ -66,7 +65,7 @@ NSArray *studentList=[myArray where:^BOOL(Student* target) {
         return target.age>20;
     }];
     
-result:
+studentList:
 (
     "  id: 1122 - name: s1 - age: 21 - sex: m  ",
     "  id: 1697 - name: s3 - age: 21 - sex: m  ",
@@ -84,7 +83,7 @@ NSDictionary *studentDic=[myArray where:^BOOL(Student* target) {
                         return obj.sex;
     }];
     
-result:
+studentDic:
 {
     f =     (
         "  id: 1919 - name: s0 - age: 20 - sex: f  ",
