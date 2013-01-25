@@ -9,6 +9,7 @@ linq(like c#) to objective-c .
 make an array first:
 ```ObjectiveC
 
+NSArray *sexs=[NSArray arrayWithObjects:@"f",@"m", nil];
 NSArray *myArray = [NSArray arrayWithLength:10 andObject:^id(NSInteger currentIndex, NSInteger length) {
         Student *s=[Student new];
         s.name=[NSString stringWithFormat:@"s%d",currentIndex];
