@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ECE9C5C16B149550028AE79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECE9C5B16B149550028AE79 /* UIKit.framework */; };
+		8ECE9C5E16B149550028AE79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECE9C5D16B149550028AE79 /* Foundation.framework */; };
+		8ECE9C6016B149550028AE79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECE9C5F16B149550028AE79 /* CoreGraphics.framework */; };
+		8ECE9C6616B149550028AE79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8ECE9C6416B149550028AE79 /* InfoPlist.strings */; };
+		8ECE9C6816B149550028AE79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE9C6716B149550028AE79 /* main.m */; };
+		8ECE9C6C16B149550028AE79 /* RQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE9C6B16B149550028AE79 /* RQAppDelegate.m */; };
+		8ECE9C6E16B149550028AE79 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ECE9C6D16B149550028AE79 /* Default.png */; };
+		8ECE9C7016B149550028AE79 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ECE9C6F16B149550028AE79 /* Default@2x.png */; };
+		8ECE9C7216B149550028AE79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ECE9C7116B149550028AE79 /* Default-568h@2x.png */; };
+		8ECE9C7516B149550028AE79 /* RQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE9C7416B149550028AE79 /* RQViewController.m */; };
+		8ECE9C7816B149550028AE79 /* RQViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ECE9C7616B149550028AE79 /* RQViewController.xib */; };
+		8ECE9C8216B149A00028AE79 /* NSArray+linq.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE9C8116B149A00028AE79 /* NSArray+linq.m */; };
+		8ECE9C8916B14A640028AE79 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE9C8816B14A640028AE79 /* Student.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8ECE9C5716B149550028AE79 /* RQLinq2oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RQLinq2oc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECE9C5B16B149550028AE79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8ECE9C5D16B149550028AE79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8ECE9C5F16B149550028AE79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8ECE9C6316B149550028AE79 /* RQLinq2oc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RQLinq2oc-Info.plist"; sourceTree = "<group>"; };
+		8ECE9C6516B149550028AE79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8ECE9C6716B149550028AE79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ECE9C6916B149550028AE79 /* RQLinq2oc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RQLinq2oc-Prefix.pch"; sourceTree = "<group>"; };
+		8ECE9C6A16B149550028AE79 /* RQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQAppDelegate.h; sourceTree = "<group>"; };
+		8ECE9C6B16B149550028AE79 /* RQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQAppDelegate.m; sourceTree = "<group>"; };
+		8ECE9C6D16B149550028AE79 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8ECE9C6F16B149550028AE79 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8ECE9C7116B149550028AE79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8ECE9C7316B149550028AE79 /* RQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQViewController.h; sourceTree = "<group>"; };
+		8ECE9C7416B149550028AE79 /* RQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQViewController.m; sourceTree = "<group>"; };
+		8ECE9C7716B149550028AE79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RQViewController.xib; sourceTree = "<group>"; };
+		8ECE9C8016B149A00028AE79 /* NSArray+linq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+linq.h"; sourceTree = "<group>"; };
+		8ECE9C8116B149A00028AE79 /* NSArray+linq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+linq.m"; sourceTree = "<group>"; };
+		8ECE9C8716B14A640028AE79 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		8ECE9C8816B14A640028AE79 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ECE9C5416B149550028AE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECE9C5C16B149550028AE79 /* UIKit.framework in Frameworks */,
+				8ECE9C5E16B149550028AE79 /* Foundation.framework in Frameworks */,
+				8ECE9C6016B149550028AE79 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ECE9C4C16B149550028AE79 = {
+			isa = PBXGroup;
+			children = (
+				8ECE9C6116B149550028AE79 /* Classes */,
+				8ECE9C5A16B149550028AE79 /* Frameworks */,
+				8ECE9C5816B149550028AE79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ECE9C5816B149550028AE79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE9C5716B149550028AE79 /* RQLinq2oc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ECE9C5A16B149550028AE79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE9C5B16B149550028AE79 /* UIKit.framework */,
+				8ECE9C5D16B149550028AE79 /* Foundation.framework */,
+				8ECE9C5F16B149550028AE79 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ECE9C6116B149550028AE79 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE9C7F16B149A00028AE79 /* RQLinq2oc */,
+				8ECE9C6A16B149550028AE79 /* RQAppDelegate.h */,
+				8ECE9C6B16B149550028AE79 /* RQAppDelegate.m */,
+				8ECE9C7316B149550028AE79 /* RQViewController.h */,
+				8ECE9C7416B149550028AE79 /* RQViewController.m */,
+				8ECE9C7616B149550028AE79 /* RQViewController.xib */,
+				8ECE9C6216B149550028AE79 /* Supporting Files */,
+				8ECE9C8716B14A640028AE79 /* Student.h */,
+				8ECE9C8816B14A640028AE79 /* Student.m */,
+			);
+			name = Classes;
+			path = RQLinq2oc;
+			sourceTree = "<group>";
+		};
+		8ECE9C6216B149550028AE79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE9C6316B149550028AE79 /* RQLinq2oc-Info.plist */,
+				8ECE9C6416B149550028AE79 /* InfoPlist.strings */,
+				8ECE9C6716B149550028AE79 /* main.m */,
+				8ECE9C6916B149550028AE79 /* RQLinq2oc-Prefix.pch */,
+				8ECE9C6D16B149550028AE79 /* Default.png */,
+				8ECE9C6F16B149550028AE79 /* Default@2x.png */,
+				8ECE9C7116B149550028AE79 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ECE9C7F16B149A00028AE79 /* RQLinq2oc */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE9C8016B149A00028AE79 /* NSArray+linq.h */,
+				8ECE9C8116B149A00028AE79 /* NSArray+linq.m */,
+			);
+			path = RQLinq2oc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ECE9C5616B149550028AE79 /* RQLinq2oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECE9C7B16B149550028AE79 /* Build configuration list for PBXNativeTarget "RQLinq2oc" */;
+			buildPhases = (
+				8ECE9C5316B149550028AE79 /* Sources */,
+				8ECE9C5416B149550028AE79 /* Frameworks */,
+				8ECE9C5516B149550028AE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RQLinq2oc;
+			productName = RQLinq2oc;
+			productReference = 8ECE9C5716B149550028AE79 /* RQLinq2oc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ECE9C4E16B149550028AE79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RQ;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = ruiq;
+			};
+			buildConfigurationList = 8ECE9C5116B149550028AE79 /* Build configuration list for PBXProject "RQLinq2oc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8ECE9C4C16B149550028AE79;
+			productRefGroup = 8ECE9C5816B149550028AE79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ECE9C5616B149550028AE79 /* RQLinq2oc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ECE9C5516B149550028AE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECE9C6616B149550028AE79 /* InfoPlist.strings in Resources */,
+				8ECE9C6E16B149550028AE79 /* Default.png in Resources */,
+				8ECE9C7016B149550028AE79 /* Default@2x.png in Resources */,
+				8ECE9C7216B149550028AE79 /* Default-568h@2x.png in Resources */,
+				8ECE9C7816B149550028AE79 /* RQViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ECE9C5316B149550028AE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECE9C6816B149550028AE79 /* main.m in Sources */,
+				8ECE9C6C16B149550028AE79 /* RQAppDelegate.m in Sources */,
+				8ECE9C7516B149550028AE79 /* RQViewController.m in Sources */,
+				8ECE9C8216B149A00028AE79 /* NSArray+linq.m in Sources */,
+				8ECE9C8916B14A640028AE79 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8ECE9C6416B149550028AE79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ECE9C6516B149550028AE79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8ECE9C7616B149550028AE79 /* RQViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ECE9C7716B149550028AE79 /* en */,
+			);
+			name = RQViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ECE9C7916B149550028AE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8ECE9C7A16B149550028AE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ECE9C7C16B149550028AE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RQLinq2oc/RQLinq2oc-Prefix.pch";
+				INFOPLIST_FILE = "RQLinq2oc/RQLinq2oc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8ECE9C7D16B149550028AE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RQLinq2oc/RQLinq2oc-Prefix.pch";
+				INFOPLIST_FILE = "RQLinq2oc/RQLinq2oc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ECE9C5116B149550028AE79 /* Build configuration list for PBXProject "RQLinq2oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECE9C7916B149550028AE79 /* Debug */,
+				8ECE9C7A16B149550028AE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECE9C7B16B149550028AE79 /* Build configuration list for PBXNativeTarget "RQLinq2oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECE9C7C16B149550028AE79 /* Debug */,
+				8ECE9C7D16B149550028AE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ECE9C4E16B149550028AE79 /* Project object */;
+}
